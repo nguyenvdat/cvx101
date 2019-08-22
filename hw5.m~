@@ -1,0 +1,6 @@
+cens_fit_data_norng;
+cvx_begin
+    variables c(n), yc(K - M);
+    minimize sum((y - X(1:M, :) * c) .^ 2) + sum(yc - X(M:-1, :)
+    
+    
